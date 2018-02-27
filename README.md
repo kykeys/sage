@@ -13,7 +13,7 @@ Sage is a WordPress starter theme with a modern development workflow.
 * [Browsersync](http://www.browsersync.io/) for synchronized browser testing
 * [Blade](https://laravel.com/docs/5.5/blade) as a templating engine
 * [Controller](https://github.com/soberwp/controller) for passing data to Blade templates
-* CSS framework (optional): [Bootstrap 4](https://getbootstrap.com/), [Bulma](https://bulma.io/), [Foundation](https://foundation.zurb.com/), [Tachyons](http://tachyons.io/)
+* [U.S. Web Design Standards Framework](https://github.com/uswds/uswds): a library of open source UI components and a visual style guide for U.S. federal government websites. This repository is for the Design System itself. To see the Design System and documentation on the web, visit [https://designsystem.digital.gov](https://designsystem.digital.gov).
 * Font Awesome (optional)
 
 See a working example at [roots-example-project.com](https://roots-example-project.com/).
@@ -66,6 +66,7 @@ themes/your-theme-name/   # → Root of your Sage based theme
 │   ├── index.php         # → Never manually edit
 │   ├── screenshot.png    # → Theme screenshot for WP admin
 │   ├── style.css         # → Theme meta information
+│   ├── uswds/            # → Fork of [uswds](https://github.com/uswds/uswds)
 │   └── views/            # → Theme templates
 │       ├── layouts/      # → Base templates
 │       └── partials/     # → Partial templates
